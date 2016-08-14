@@ -8,4 +8,6 @@ ADD aria2.conf /etc/aria2.conf
 
 VOLUME /downloads
 
+EXPOSE 6800
+
 CMD /usr/bin/aria2c --conf-path=/etc/aria2.conf
