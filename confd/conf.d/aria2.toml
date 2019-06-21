@@ -1,3 +1,0 @@
-[template]
-src = "aria2.conf.tmpl"
-dest = "/etc/aria2.conf"

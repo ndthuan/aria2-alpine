@@ -17,5 +17,3 @@ First, you might want to check out the comprehensive [aria2 configuration docs](
 * `FILE_ALLOCATION`: file allocation method, read [--file-allocation explanation here]([FILE_ALLOCATION](https://aria2.github.io/manual/en/html/aria2c.html#cmdoption-file-allocation)) default: `none`.
 * `ALLOW_OVERWRITE`: maps to aria2's [--allow-overwrite](https://aria2.github.io/manual/en/html/aria2c.html#cmdoption-allow-overwrite), default: `true`.
 * `AUTO_FILE_RENAMING`: maps to aria2's [--auto-file-renaming](https://aria2.github.io/manual/en/html/aria2c.html#cmdoption-auto-file-renaming), default: `false`.
-
-Edit the confd's [configuration template](confd/templates/aria2.conf.tmpl) to add more variables if you want.
