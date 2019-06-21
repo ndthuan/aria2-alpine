@@ -3,6 +3,7 @@
 cat > /etc/aria2.conf <<EOF
 enable-rpc=true
 rpc-listen-all=true
+rpc-secret=${RPC_SECRET:-}
 dir=${DOWNLOAD_DIR:-/downloads}
 log=${DOWNLOAD_DIR:-/downloads}/aria2.log
 max-concurrent-downloads=${CONCURRENT_DOWNLOADS:-4}
