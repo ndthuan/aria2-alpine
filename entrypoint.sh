@@ -1,6 +1,7 @@
 #!/bin/sh
 
 cat > /etc/aria2.conf <<EOF
+log-level=warn
 enable-rpc=true
 rpc-listen-all=true
 rpc-secret=${RPC_SECRET:-}
